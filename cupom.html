@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modelo de Design</title>
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/main.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/elements.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/visual.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/dropdown.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/sidenav.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/actions.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/size.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/position.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/box.css">
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/responsivity.css">
+
+	<link rel="stylesheet" type="text/css" href="https://jaframework.herokuapp.com/front-end/stylesheets/fonts.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style type="text/css">
+		.wrapr {
+			margin-left: auto;
+		}
+	</style> 
+</head>
+<body>
+
+	<div class="container border" style="background-color:#000">
+		<div class="mobile-box a5">
+	     	<img class="width-100" src="image/jariomilitar.png"> 
+		</div>
+		<div class="mobile-box container b4-5 center" style="color:#fff;">
+			<img class="width-60 wrapr pointer" src="image/whatsapp.png" onclick="lib.openExternalLink('https://api.whatsapp.com/send?phone=5521964211738&text=Vi%20na%20p%C3%A1gina%20de%20voc%C3%AAs%20que%20tenho%2010%25%20de%20desconto%20em%20qualquer%20compra%20na%20loja!%20')">
+		</div>
+	</div>
+
+	<div id="time" class="box b1 center"></div>
+
+<!-- cabeçalho -->
+   <!-- <div class="container border" style="background-color: #000">  -->
+     	<!-- <div class="box a1 container height-100 header"> -->
+     	<!-- <img class="box a6 border width-100" src="image/jariomilitar.png">  -->
+        <!-- </div> -->
+   <!-- </div> -->
+
+<!--     	<div class="box b2 container border-explicit padding-10 radius-5 shadow2-hover margin-top-15">
+			<img class="box b1 center border-explicit width-200" src="image/">
+        </div>
+		
+		<div class="box b2 container border-explicit padding-10 radius-5 shadow2-hover margin-top-15">
+			<img class="box b1 center border-explicit width-" src="image/qr.png">
+		</div>
+ -->
+</body>
+<footer>
+	<script src="https://jaframework.herokuapp.com/front-end/javascripts/essentials/lib.js"></script>
+	<script type="text/javascript">
+		setTimeout(() => {
+			document.getElementById("time").innerHTML = lib.genFullDate();
+		}, 1000)
+	</script>
+</footer>
+</html>
