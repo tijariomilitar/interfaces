@@ -1,0 +1,89 @@
+.btn-buy {
+	background-color: #008000;
+	color:#fff;
+}
+
+.background-orange {
+	background-color: #ffa500;
+}
+
+.background-brown{
+	background-color: #4b3621;
+}
+
+.background-green {
+	background-color: #008000;
+}
+
+.background-beige {
+	background-color: #4B5320;
+}
+
+.background-black {
+	background-color: #212322;
+}
+
+.background-white {
+	background-color: #ffffff;
+}
+
+.background-gray {
+	background-color: gray ;
+}
+
+.header {
+    background-color: #000000;
+}
+
+.img-logo {
+	max-width: 125px;
+}
+
+.bg-1 {
+	background-image: url("file:///C:/Users/jario/OneDrive/%C3%81rea%20de%20Trabalho/Design/Model/image/fundo.png");  
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.font-white {
+	color:white;
+}
+
+.click:hover {
+	opacity: 0.8;
+}
+
+.white {
+	color: #ffffff
+}
+
+.margin-top-30 { 
+	    margin-top: 30px; 
+}
+
+.placeholder {
+  background: transparent;
+  color: black;
+  border: hidden;
+  outline: none;
+}
+
+.padding-3 { 
+	padding: 3px;
+} 
+
+.icone-menu {
+	max-width: 50px;
+    margin-top: 30px; 
+}
+
+.margin-left-50 { 
+	margin-left: 50px;
+	}
+.icon-pay {
+max-width: 20px;
+}
+
+.margin-right-200 { 
+	margin-right: 200px; 
+}
