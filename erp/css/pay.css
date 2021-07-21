@@ -5,16 +5,21 @@
 
 .background-orange {
 	background-color: #ffa500;
+	opacity: 0.8;
 }
 
 .background-brown{
 	background-color: #4b3621;
 }
 
-.background-green {
-	background-color: #008000;
-}
+.background-green { background-color: #008000; }
+/*.background-green:hover { background-color: #005000; }*/
 
+
+
+.background-lightgreen {
+	background-color: #c8fac8;
+}
 .background-beige {
 	background-color: #4B5320;
 }
@@ -49,10 +54,6 @@
 	color:white;
 }
 
-.click:hover {
-	opacity: 0.8;
-}
-
 .white {
 	color: #ffffff
 }
@@ -81,9 +82,12 @@
 	margin-left: 50px;
 	}
 .icon-pay {
-max-width: 20px;
+max-width: 25px;
 }
-
+.icon-18 {
+max-width: 18px;
+}
 .margin-right-200 { 
 	margin-right: 200px; 
 }
+
