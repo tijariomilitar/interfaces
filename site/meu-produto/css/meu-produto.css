@@ -1,0 +1,14 @@
+.size-125 { max-width: 125px; max-height: 125px; }
+
+.background-green { background-color: #008000; }
+
+.background-black { background-color: #212322; }
+
+.btn-buy {
+	background-color: #008000;
+	color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px #d2d2d2 solid;
+}

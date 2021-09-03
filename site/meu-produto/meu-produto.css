@@ -1,0 +1,11 @@
+.size-125 { max-width: 125px; max-height: 125px; }
+
+.background-green { background-color: #008000; } 
+
+.btn-buy {
+	background-color: #008000;
+	color:#fff;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+    cursor: pointer;
+}
