@@ -1,0 +1,53 @@
+.background-orange {
+	background-color: #ffa500;
+	opacity: 0.8;
+}
+
+.background-brown{
+	background-color: #4b3621;}
+
+.background-green { background-color: #008000; }
+/*.background-green:hover { background-color: #005000; }*/
+
+.background-lightgreen { background-color: #c8fac8;}
+
+.background-beige {background-color: #4B5320;}
+
+.background-black {background-color: #212322;}
+
+.background-white {background-color: #ffffff;}
+
+.background-gray {background-color: gray ;}
+
+.header {background-color: #000000;}
+
+.img-logo {max-width: 125px;}
+
+.bg-1 {
+	background-image: url("file:///C:/Users/jario/OneDrive/%C3%81rea%20de%20Trabalho/Design/Model/image/fundo.png");  
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.font-white {color:white;}
+
+.white {color: #ffffff}
+
+.margin-top-30 {margin-top: 30px; }
+
+.placeholder {
+  background: transparent;
+  color: black;
+  border: hidden;
+  outline: none;
+}
+
+.icone-menu {
+	max-width: 50px;
+    margin-top: 30px; 
+}
+
+.icon-pay {max-width: 25px;}
+
+.icon-18 {max-width: 18px;}
+
