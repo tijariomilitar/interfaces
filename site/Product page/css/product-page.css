@@ -7,8 +7,11 @@ body {background-color: white}
 	.category-menu {display: none;}
 	.a8toa1 {width: 100%; align-content: center; max-height: 200px; max-width: 200px;}
 	.icon-category {display: block}
+    .none-mobile {display: none;}
 }
-
+.none-mobile {
+        display: block;
+}
 .icon-category {
 	display: none;
     position: absolute;
@@ -116,10 +119,10 @@ p.outset {	border-style: outset;}
   display: none;
   position: absolute;
   background-color: #000000;
-  min-width: 250px;
+  min-width: 210px;
   min-height: 180px;
   padding: 12px 12px;
-  z-index: 1;
+  z-index: 2;
   border-radius: 10px;
   opacity: 0.95;
 }
@@ -128,5 +131,8 @@ p.outset {	border-style: outset;}
 .dropdown-menu:hover .dropdown-content {
   display: block;
 }
-
+.size-170 {
+    max-height:170px;
+    max-height:170px;
+}
 
